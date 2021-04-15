@@ -8,6 +8,10 @@ body{
   flex-direction:row;
 }
 
+.menu ul li{
+  background:black;
+  white;
+}
 
 @media (max-width:700px){
   .conteiner{
