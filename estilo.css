@@ -10,7 +10,7 @@ body{
 
 .menu ul li{
   background:black;
-  white;
+  color:white;
 }
 
 @media (max-width:700px){
