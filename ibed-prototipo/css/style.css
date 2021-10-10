@@ -1,1 +1,780 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-family: "Recursive";
+}
+
+html, body{
+	background:#F5F5F5;
+	color:#000;
+	font-family:Arial;
+}
+
+     #video_config{
+     	width: 100%;
+     	height:540px;
+     }
+
+.p-text{
+	text-align: left;
+	padding-left: 15px;
+}
+
+.title.color h1, h2, h3, h4, h5, h6{
+	color:#000;
+}
+	
+.h4-title{
+	text-align: left;
+	padding-left: 15px;
+}
+
+.p-sobre{
+	padding-left: 15px;
+}
+
+a{
+	text-decoration:none;
+}
+
+.icon-logo{
+	margin-top:5px;
+}
+
+.icon-logo{
+	pointer-events:none;
+	cursor:none;
+	text-decoration:none;
+}
+
+.icon-logo::before{
+	content: ' ';
+	padding-right:25px;
+}
+
+/* HEADER*/
+
+.titulo_clinica{
+	padding-left:38px; 
+	font-family:Arial;
+	color:#000;
+}
+
+.menu{
+	background:linear-gradient(15deg,#FFD700, yellow, red, #B22222);
+	border-bottom: 1px solid #F5F5F5;
+	color:#000;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+}
+
+.menu a{
+	color:#000;
+	padding:15px;
+	font-weight: 700;
+}
+
+.menu a::before{
+	content: '  ';
+	padding-right:10px;
+}
+
+.menu a:hover{
+	background:#F5F5F5;
+	border-right: 1px solid #F5F5F5;
+	border-left: 1px solid transparent;
+	text-decoration: underline;
+	color:#000000;
+	opacity:1;
+	animation-name:fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .4s;
+}
+
+/* FINAL DO HEADER*/
+
+
+/**
+	MAIN
+*/
+
+main{
+	background: linear-gradient(95deg, #F0E68C, #F5F5DC);
+	border-radius: 5px;
+	border: 1px solid #F0E68C;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.main-img {
+	display:flex;
+	flex-direction:row;
+	padding:0px 10px 10px 10px;
+	margin-left:38px;
+	pointer-events:none;
+	cursor:none;
+}
+
+.main-img p{
+	text-align:left	;
+	font-size:25px;
+	margin-top:-10px;
+}
+
+.main-img p::before{
+	content:' ';
+}
+.main-img p::after{
+	content:' ';
+}
+
+.main-img2 img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px 10px 10px 10px;
+	width:90%;
+}
+
+
+/*FINAL DO MAIN*/
+
+aside{
+	padding: 10px 5px;
+}
+
+.aside.conteudo{
+	padding:4px;
+}
+
+.aside.box{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	text-align: center;
+}
+
+.item.a img{
+	width:128px;
+}
+
+.item.b img{
+	width:128px;
+}
+
+.item.c img{
+	width:128px;
+}
+
+.item.d img{
+	width:128px;
+}
+
+.rodape{
+	background:linear-gradient(180deg,red, yellow);
+	color:#000;
+	border: 1px solid #F5F5F5;
+	display:flex;
+	flex-direction:row;
+	margin-bottom:0;
+	padding:25px;
+	justify-content:space-around;
+}
+
+
+.icon-zap span, h3{
+	font-size:30px;
+	text-align:left;
+	color:#ffffff;
+}
+
+.icon-zap span::after{
+	content:' ';
+	padding-right:2px;
+}
+
+.icon-zap.logo img{
+	width:160px;
+	height:64px;
+}
+
+.icon-zap.tel img{
+	height: 64px;
+	width: 64px;		
+}
+
+.img.zap.zap
+{
+	height: 64px;
+	width: 64px;
+}
+
+
+/* FINAL DO FOOTER*/
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+h2, p{
+	text-align:left;
+	padding:10px;
+}
+
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) { 
+     /* estilos aqui */
+     #video_config{
+		width: 100%;
+		height: 320px;
+	}
+
+	.p-text{
+		text-align: center;
+	}
+
+	.h4-title{
+		text-align: center;
+	}
+
+	.footer-item{
+		text-align:center;
+		height:100%;
+	}
+
+	.icon-logo{
+		display:none;
+		height: 100%;
+	}
+
+	
+	.icon-zap span, h3{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		font-size:25px;
+		text-align:center;
+	}
+	
+	.icon-zap span::after{
+		content:'';
+	}
+
+	.icon-zap img{
+		width:64px;
+	}
+	
+	.icon.zap.logo {
+		width:100%;
+	}
+	
+	.icon-zap.logo img{
+		width:160px;
+		height:64px;
+		margin-left:52px;
+		margin-bottom:12px;
+	}
+	
+	.titulo_clinica{
+		padding-left:0px; 
+		font-family:Arial;
+		color:#7b4b3f;
+		text-align:center;
+	}
+	
+	
+	
+	.menu{
+		flex-direction:column;
+	}
+		
+	.menu a{
+		border-bottom: 1px solid #dea997;
+		font-size:1rem;
+		text-align:center;
+	}
+	
+	h2,p{
+		text-align:center;
+	}
+	
+	.main-img{
+		flex-direction:column;
+		margin-left:0px;		
+	}
+	
+	.main-img img{
+		display:block;
+		margin-right:auto;
+		margin-left:auto;
+		width:95%;
+	}
+	
+	.main-img p{
+		text-align:justify;
+		font-size:18px;
+		margin-top:0px;
+	}
+
+	/*
+	.aside.conteudo{
+		
+	}	
+	*/
+		
+	.rodape{
+		background:linear-gradient(180deg,red, yellow);
+		color:#000;
+		flex-direction:column;
+	}
+	
+	.rodape{
+		display:block;
+		margin-bottom:auto;
+	}
+	
+	
+	.rodape span{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+	}
+	.rodape img{
+		padding-top:10px;
+	}
+	.rodape h3{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+		font-size:35px;
+	}
+
+	.titulo-rodape{
+		text-align: center;
+	}
+ }
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+     /* estilos aqui */
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+     /* estilos aqui */
+
+     #video_config{
+     	width: 100%;
+     	height:640px;
+     }
+     .p-text{
+		text-align: center;
+	}
+     .title.color h1, h2, h3, h4, h5, h6{
+	color:#000;
+}
+	
+.h4-title{
+	text-align: left;
+	padding-left: 15px;
+}
+
+.p-sobre{
+	padding-left: 15px;
+}
+
+a{
+	text-decoration:none;
+}
+
+.icon-logo{
+	margin-top:5px;
+}
+
+.icon-logo{
+	pointer-events:none;
+	cursor:none;
+	text-decoration:none;
+}
+
+.icon-logo::before{
+	content: ' ';
+	padding-right:25px;
+}
+
+/* HEADER*/
+
+.titulo_clinica{
+	padding-left:38px; 
+	font-family:Arial;
+	color:#000;
+}
+
+.menu{
+	background:linear-gradient(45deg,#FFD700, yellow, red, #B22222);
+	border-bottom: 1px solid gray;
+	color:#000;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+}
+
+.menu a{
+	color:#000;
+	padding:15px;
+	font-weight: 700;
+}
+
+.menu a::before{
+	content: '  ';
+	padding-right:10px;
+}
+
+.menu a:hover{
+	background:#ffffff;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+	color:#000000;
+	opacity:1;
+	animation-name:fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .4s;
+}
+
+/* FINAL DO HEADER*/
+
+
+/**
+	MAIN
+*/
+
+main{
+	background: #F0E68C;
+	border-radius: 5px;
+	border: 1px solid gray;
+	box-shadow: 1px 3px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.main-img {
+	display:flex;
+	flex-direction:row;
+	padding:0px 10px 10px 10px;
+	margin-left:38px;
+	pointer-events:none;
+	cursor:none;
+}
+
+.main-img p{
+	text-align:left	;
+	font-size:25px;
+	margin-top:-10px;
+}
+
+.main-img p::before{
+	content:' ';
+}
+.main-img p::after{
+	content:' ';
+}
+
+.main-img2 img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px 10px 10px 10px;
+	width:90%;
+}
+
+
+/*FINAL DO MAIN*/
+
+aside{
+	padding: 10px 5px;
+}
+
+.aside.conteudo{
+	padding:4px;
+}
+
+.aside.box{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	text-align: center;
+}
+
+.item.a img{
+	width:128px;
+}
+
+.item.b img{
+	width:128px;
+}
+
+.item.c img{
+	width:128px;
+}
+
+.item.d img{
+	width:128px;
+}
+
+.rodape{
+	background:linear-gradient(180deg,red, yellow);
+	color:#000;
+	border: 1px solid gray;
+	display:flex;
+	flex-direction:row;
+	margin-bottom:0;
+	padding:25px;
+	justify-content:space-around;
+}
+
+
+.icon-zap span, h3{
+	font-size:30px;
+	text-align:left;
+	color:#ffffff;
+}
+
+.icon-zap span::after{
+	content:' ';
+	padding-right:2px;
+}
+
+.icon-zap.logo img{
+	width:160px;
+	height:64px;
+}
+
+.icon-zap.tel img{
+	height: 64px;
+	width: 64px;		
+}
+
+.img.zap.zap
+{
+	height: 64px;
+	width: 64px;
+}
+}
+
+/* Desktop grande */
+@media (min-width: 1200px) {
+    /* estilos aqui */
+
+ #video_config{
+		width: 100%;
+		height: 520px;
+}
+    .title.color h1, h2, h3, h4, h5, h6{
+	color:#000;
+}
+	
+.h4-title{
+	text-align: left;
+	padding-left: 15px;
+}
+
+.p-sobre{
+	padding-left: 15px;
+}
+
+a{
+	text-decoration:none;
+}
+
+.icon-logo{
+	margin-top:5px;
+}
+
+.icon-logo{
+	pointer-events:none;
+	cursor:none;
+	text-decoration:none;
+}
+
+.icon-logo::before{
+	content: ' ';
+	padding-right:25px;
+}
+
+/* HEADER*/
+
+.titulo_clinica{
+	padding-left:38px; 
+	font-family:Arial;
+	color:#000;
+}
+
+.menu{
+	background:linear-gradient(45deg,#FFD700, yellow, red, #B22222);
+	border-bottom: 1px solid gray;
+	color:#000;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+}
+
+.menu a{
+	color:#000;
+	padding:15px;
+	font-weight: 700;
+}
+
+.menu a::before{
+	content: '  ';
+	padding-right:10px;
+}
+
+.menu a:hover{
+	background:#ffffff;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+	color:#000000;
+	opacity:1;
+	animation-name:fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .4s;
+}
+
+/* FINAL DO HEADER*/
+
+
+/**
+	MAIN
+*/
+
+main{
+	background: #F0E68C;
+	border-radius: 5px;
+	border: 1px solid gray;
+	box-shadow: 1px 3px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.main-img {
+	display:flex;
+	flex-direction:row;
+	padding:0px 10px 10px 10px;
+	margin-left:38px;
+	pointer-events:none;
+	cursor:none;
+}
+
+.main-img p{
+	text-align:left	;
+	font-size:25px;
+	margin-top:-10px;
+}
+
+.main-img p::before{
+	content:' ';
+}
+.main-img p::after{
+	content:' ';
+}
+
+.main-img2 img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px 10px 10px 10px;
+	width:90%;
+}
+
+
+/*FINAL DO MAIN*/
+
+aside{
+	padding: 10px 5px;
+}
+
+.aside.conteudo{
+	padding:4px;
+}
+
+.aside.box{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	text-align: center;
+}
+
+.item.a img{
+	width:128px;
+}
+
+.item.b img{
+	width:128px;
+}
+
+.item.c img{
+	width:128px;
+}
+
+.item.d img{
+	width:128px;
+}
+
+.rodape{
+	background:linear-gradient(180deg,red, yellow);
+	color:#000;
+	border: 1px solid gray;
+	display:flex;
+	flex-direction:row;
+	margin-bottom:0;
+	padding:25px;
+	justify-content:space-around;
+}
+
+
+.icon-zap span, h3{
+	font-size:30px;
+	text-align:left;
+	color:#ffffff;
+}
+
+.icon-zap span::after{
+	content:' ';
+	padding-right:2px;
+}
+
+.icon-zap.logo img{
+	width:160px;
+	height:64px;
+}
+
+.icon-zap.tel img{
+	height: 64px;
+	width: 64px;		
+}
+
+.img.zap.zap
+{
+	height: 64px;
+	width: 64px;
+}
+}
+
+
 
