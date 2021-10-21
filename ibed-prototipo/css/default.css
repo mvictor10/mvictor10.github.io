@@ -1,0 +1,8 @@
+
+:root{
+	--bgcolor: linear-gradient(15deg, #ff0000, #ff6347, rgb(255,0,0, 0.6));
+	--tcolor:#000;
+	--bgcolor_header: #FFFFFF;
+	--tcolor_header: #000000;
+	--spacing-default: 10px;
+}
