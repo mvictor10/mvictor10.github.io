@@ -1,43 +1,38 @@
 <!DOCTYPE html>
+<html lang="pt-br">
 
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>IBED - LIVE</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="./css/style.css">
-	</head>
-	<body>
-		<!-- HEADER -->
-		<header>
-			<div class="menu">
-				<!--<span class="icon-logo"><img src="./../img/logo/icone_logo.png"></span>-->
-				<a href="index.html">Inicio</a>
-				<a href="list.html">Dias de Cultos</a>
-				<a href="live.html">Live</a>
-				<a href="contact.html">Contato</a>
-				<a href="about.html">Sobre N&oacute;s</a>
-			</div>
-			<span> </span>
-		</header>
-		<br>
-		<!-- MAIN -->
-		<main>
-			<h4 class="h4-title">Live YouTube </h4>
-			<iframe  id="video_config" src="https://www.youtube.com/embed/live_stream?channel=UCDNM9Z4iHOGl9x3SrbbNcDA" frameborder="0" allowfullscreen></iframe>
-		</main>
-		<!-- ASIDE -->
-		<aside>
-			<!-- ASIDE -->
-		</aside>
-		<br>
-		<br>
-		<br>
-		<!-- FOOTER -->
-		<footer>
-			<div class="rodape">
-				<h4 class="titulo-rodape">Todos Direitos Reservados para IBED&reg;.</h4>
-			</div> 
-		</footer>
-	</body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IBED - Homepage</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header id="header">
+    <!--
+    <a id="logo" href="">Logo</a>
+    -->
+    <img id="logo" src="">
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="list.html">Worship Days</a></li>
+        <li><a href="live.html">Live Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About Us</a></li>  
+      </ul>
+    </nav>
+  </header>
+  <script src="./js/script.js"></script>
+  <main id="main">
+    <h4 class="h4-title">Live YouTube </h4>
+      <iframe  id="video_config" src="https://www.youtube.com/embed/live_stream?channel=UCDNM9Z4iHOGl9x3SrbbNcDA" frameborder="0" allowfullscreen></iframe>
+  </main>
+</body>
+
 </html>
