@@ -1,0 +1,13 @@
+
+/* Configurações gerais do site*/
+:root{
+	--bg-default: linear-gradient(15deg,#ff0000, #c03131);
+	--bg-main:#dfdf1b;
+	--bg-footer: #dfdf1b;
+	--bg-aside: #dfdf1b;
+	--text-color:#000;
+	--bg_header: #FFFFFF;
+	--tcolor_header: #000000;
+	--spacing-default: 10px;
+	--font-default:Verdana;
+}
