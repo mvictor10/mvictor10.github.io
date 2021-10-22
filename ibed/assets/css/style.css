@@ -5,6 +5,13 @@
 html{
   font-family: Arial, Helvetica, sans-serif, "Recursive";
 }
+#linha{
+  border:1px solid white;
+  margin-top:0;
+  margin-bottom:0;
+  margin-left:10px;
+  margin-right:10px;
+}
 
 .linha{
   border:1px solid white;
