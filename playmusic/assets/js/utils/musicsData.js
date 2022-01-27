@@ -133,56 +133,56 @@ const musicsData = [
     musicFile: "NX Zero - Razões E Emoções.mp3",
     albumFile:"NX Zero - Razões E Emoções.jpg",
     name: "Razões E Emoções",
-    performer: "Razões e Emoções"
+    performer: "Razões e Emoções",
   },
 
   {
     musicFile: "NX Zero - Cedo Ou Tarde.mp3",
     albumFile:"NX Zero - Razões E Emoções.jpg",
     name: "Razões E Emoções",
-    performer: "Cedo ou Tarde"
+    performer: "Cedo ou Tarde",
   },
   
   {
     musicFile: "U.M.M. - EBM.mp3",
     albumFile:"UMM-EBM.jpg",
     name: "U.M.M",
-    performer: "EBM"
+    performer: "EBM",
   },
   
   {
     musicFile: "U.M.M. - UMM.mp3",
     albumFile:"UMM-EBM.jpg",
     name: "U.M.M",
-    performer: "U.M.M"
+    performer: "U.M.M",
   },
   
   {
     musicFile: "U.M.M. - Terrorista (feat. AMK).mp3",
     albumFile:"UMM-EBM.jpg",
     name: "U.M.M",
-    performer: "Terrorista (feat. AMK)"
+    performer: "Terrorista (feat. AMK)",
   },
   
   {
     musicFile: "U.M.M. - O Mineiro (Der Bergmann).mp3",
     albumFile:"UMM-EBM.jpg",
     name: "U.M.M",
-    performer: "O Mineiro (Der Bergmann)"
+    performer: "O Mineiro (Der Bergmann)",
   },
   
   {
     musicFile: "U.M.M. - Maquinas de Guerra.mp3",
     albumFile:"UMM-EBM.jpg",
     name: "U.M.M",
-    performer: "Maquinas de Guerra"
+    performer: "Maquinas de Guerra",
   },
   
   {
     musicFile: "U.M.M. - M.P.M.P.S.S.M.mp3",
     albumFile:"UMM-EBM.jpg",
     name: "U.M.M",
-    performer: "M.P.M.P.S.S.M"
+    performer: "M.P.M.P.S.S.M",
   },
 
 ];
