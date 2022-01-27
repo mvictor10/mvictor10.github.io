@@ -142,6 +142,48 @@ const musicsData = [
     name: "Razões E Emoções",
     performer: "Cedo ou Tarde"
   },
+  
+  {
+    musicFile: "U.M.M. - EBM.mp3",
+    albumFile:"UMM-EBM.jpg",
+    name: "U.M.M",
+    performer: "EBM"
+  },
+  
+  {
+    musicFile: "U.M.M. - UMM.mp3",
+    albumFile:"UMM-EBM.jpg",
+    name: "U.M.M",
+    performer: "U.M.M"
+  },
+  
+  {
+    musicFile: "U.M.M. - Terrorista (feat. AMK).mp3",
+    albumFile:"UMM-EBM.jpg",
+    name: "U.M.M",
+    performer: "Terrorista (feat. AMK)"
+  },
+  
+  {
+    musicFile: "U.M.M. - O Mineiro (Der Bergmann).mp3",
+    albumFile:"UMM-EBM.jpg",
+    name: "U.M.M",
+    performer: "O Mineiro (Der Bergmann)"
+  },
+  
+  {
+    musicFile: "U.M.M. - Maquinas de Guerra.mp3",
+    albumFile:"UMM-EBM.jpg",
+    name: "U.M.M",
+    performer: "Maquinas de Guerra"
+  },
+  
+  {
+    musicFile: "U.M.M. - M.P.M.P.S.S.M.mp3",
+    albumFile:"UMM-EBM.jpg",
+    name: "U.M.M",
+    performer: "M.P.M.P.S.S.M"
+  },
 
 ];
 
