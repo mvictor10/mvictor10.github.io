@@ -3,17 +3,17 @@
 :root{
 	
 	/* Background Gradient */
-	--main-default-grd1:#2687cd;
-	--main-default-grd2:#44a0da;
-	--main-default-grd3:#F00677;
-	--main-default-grd4:#29DAF0;
+	--main-default-grd1:#000000;
+	--main-default-grd2:#1c1c1c;
+	--main-default-grd3:#000000;
+	--main-default-grd4:#1c1c1c;
 
 	--main-default-font:#ffffff;
 	--main-default-nav:#ebf7f8;
 
 	/*Ancoras da Página*/
 	--main-default-link:#ffffff;
-	--main-default-link-hover:#840943;
+	--main-default-link-hover:#836fff;
 	
 	/* Sombra */
 	--main-default-boxshadown:#000000;
@@ -23,14 +23,22 @@
 	
 	/* Icones de Redes Sociais */
 	--main-items-social:#ffffff;
-	--main-items-social-active:#F00677;
+	--main-items-social-active:#6A5ACD;
 
 	/* Borda Skills (Icones Imagens) */
-	--main-skill-imagem-shadown:#680266;
+	--main-skill-imagem-shadown:#836FFF;
 
 	/* Botões */
-	--main-button-normal:#91268f;
+	--main-button-normal:#191970;
 	--main-button-hover:#ba51b6;
+
+	/* Redes Sociais */
+	--instagram:#ff1493;
+	--telegram:#00bfff;
+	--whatsapp:#32cd32;
+	--linkedin:#1e90ff;
+	--youtube:#b22222;
+	--github:#d3d3d3;
 }
 
 *{
@@ -48,7 +56,7 @@ html{
 }
 
 body{
-	background:linear-gradient(68.15deg, var(--main-default-grd4), var(--main-default-grd1), var(--main-default-grd2), var(--main-default-grd3));
+	background:linear-gradient(180deg, var(--main-default-grd4), var(--main-default-grd1), var(--main-default-grd2), var(--main-default-grd3));
 	font-size:100%;
 }
 
@@ -187,6 +195,17 @@ body{
 	gap:24px;
 }
 
+.lista-habilidades li{
+	list-style:none;
+	font-size:25px;
+	font-weight:bolder;
+	color:var(--instagram);
+}
+
+.lista-habilidades li::before{
+	content:'✅';
+}
+
 
 .parte{
 	display:flex;
@@ -244,6 +263,7 @@ body{
 	color:silver;
 }
 
+/*
 .parte-principal-item{
 	color:var(--main-items-social);
 }
@@ -251,6 +271,8 @@ body{
 .parte-principal-item:hover{
 	color:var(--main-items-social-active);
 }
+*/
+
 
 
 .rodape{
@@ -262,4 +284,40 @@ body{
 	display:block;
 	height:24px;
 	margin:0 auto;
+}
+
+
+/*Network icons */
+
+.fa-brands.fa-instagram,
+.fa-brands.fa-telegram,
+.fa-brands.fa-whatsapp,
+.fa-brands.fa-linkedin,
+.fa-brands.fa-youtube,
+.fa-brands.fa-github{
+	color:#fff;
+}
+
+.fa-brands.fa-instagram:hover{
+	color:var(--instagram);
+}
+
+.fa-brands.fa-telegram:hover{
+	color:var(--telegram);
+}
+
+.fa-brands.fa-whatsapp:hover{
+	color:var(--whatsapp);
+}
+
+.fa-brands.fa-linkedin:hover{
+	color:var(--linkedin);
+}
+
+.fa-brands.fa-youtube:hover{
+	color:var(--youtube);
+}
+
+.fa-brands.fa-github:hover{
+	color:var(--github);
 }
